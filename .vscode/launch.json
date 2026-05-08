@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run DemoApplication (demo)",
+      "request": "launch",
+      "mainClass": "com.example.demo.DemoApplication",
+      "projectName": "demo",
+      "cwd": "${workspaceFolder}/demo",
+      "env": {
+        "SPRING_DOCKER_COMPOSE_FILE": "${workspaceFolder}/demo/compose.yaml"
+      }
+    }
+  ]
+}
